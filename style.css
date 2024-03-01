@@ -1,9 +1,11 @@
 /*
 https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311_.png
 */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 * {
     box-sizing: border-box;
+    font-family: 'Outfit', sans-serif; 
 }
 
 body {
