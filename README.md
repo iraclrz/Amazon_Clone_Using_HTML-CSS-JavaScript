@@ -1,2 +1,2 @@
-# amazon-clone
-amazon clone
+# Amazon-clone
+This is an Amazon Clone webpage using HTML, CSS, and JavaScript
