@@ -111,11 +111,22 @@ body {
 }
 
 .search-select {
-    width: 60px;
-    border: none;
+    display: flex;
+    align-items: center;
+    padding:10px;
     background-color: rgb(230, 227, 227);
+    border-right: 1px solid #c4c4c4;
 }
 
+.select-text {
+    color: gray; 
+    font-size: 0.8rem; 
+    padding-right: 8px;
+}
+.dropdown-icon {
+    width: 10px; 
+    margin-right: 4px;
+}
 .search-input {
     width: 100%;
     height: 100%;
@@ -141,7 +152,7 @@ body {
 }
 
 
-/***lauguage section*/
+/***language section***/
 .language-container {
     margin-left: 25px;
 }
