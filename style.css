@@ -97,7 +97,6 @@ body {
 
 /***search-container****/
 .search-container {
-    background-color: red;
     margin-left: 40px;
     width: 805px;
     display: flex;
@@ -265,13 +264,29 @@ body {
     color: white;
     list-style: none;
 }
-
+.container-nav ul li{
+    padding: 0px 5px;
+}
+.container-nav .open-nav-slider{
+    display: flex;
+    align-items: center;
+}
 .container-nav ul li a {
     color: white;
     text-decoration: none;
     padding: 0px 2px;
 
 }
+.fresh-dropdown-icon{
+    margin-left: 5px;
+}
+.container-nav .open-nav-slider img{
+    margin-right: 5px;
+}
+.container-nav .open-nav-slider p{
+    display: flex;
+}
+
 
 .nav-right-image-amazon-prime {
     min-width: 300px;
@@ -368,6 +383,8 @@ body {
 /*sidebar navigation****/
 #open-nav-sidebar {
     cursor: pointer;
+    display: flex;
+    padding-top: 1px;
 }
 
 .sidebar-container-navigation {
