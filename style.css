@@ -342,13 +342,13 @@ body {
     height: 600px;
     /* transform: translateX(-300%); */
     transition: transform 0.3s;
-
 }
 
 .image-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    mask-image: linear-gradient(to bottom, #000000
+    50%, transparent 100%)
 }
 
 .image-btn-container {
